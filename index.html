@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0 user-scalable=1">
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/android-chrome-512x512.png" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title> OH! Code Quiz</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="" id="" class="highscores">View Highscores</a>
+        </div>
+        <div>
+            <h2>Olivia's Coding Quiz</h2>
+        </div>
+        <div id="time" class="timer">Time: 15</div>
+    </header>
+
+    <!-- Rules -->
+    <div class= "welcome">
+        <div class="rules_title">
+            <h3>Quiz Rules!</h3>
+        </div>
+        <div class="rules_list">
+            <div class="rules">1. You will have 10 seconds to answer each question.</div>
+            <div class="rules">2. For each wrong answer you get wrong 2 seconds will be deducted from the timer.</div>
+            <div class="rules">3. The quiz is over when all questions are answered or when the time runs out.</div>
+            <div class="rules">4. When the quiz is over you can save your initials and score.</div>
+            <div class="rules">5. To begin the quiz press Start Quiz below!</div>
+        </div>
+        <!-- Start Quiz Button -->
+        <div class="buttons">
+            <button class="btn" id="start_btn">Start Quiz</button>
+        </div>
+    </div>
+
+    <!-- Quiz Questions -->
+    <div class ="questions hidden">
+        <h1 id="question"> </h1>
+        <div class="buttons">
+            <button class="btn option-text" id="btn1">A. <span id="option1"></span></button>
+            <button class="btn option-text" id="btn2">B. <span id="option2"></span></button>
+            <button class="btn option-text" id="btn3">C. <span id="option3"></span></button>
+            <button class="btn option-text" id="btn4">D. <span id="option4"></span></button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <img src="assets/images/OH! logo.png" style="width: 30; height: 60;">
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
